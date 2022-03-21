@@ -1,0 +1,85 @@
+body {
+    background-color:#b5faff;
+    margin: 0;
+}
+
+.main-logo {
+    width: 100%;
+    margin-top: 5vh;
+}
+
+.main-logo img {
+    width: 8em;
+    margin-top: -3em;
+    margin-bottom: 1.2em;
+}
+
+.prompt {
+    font-size: 1.8em;
+    padding: 0em 0.8em;
+}
+
+/* codeburst.io: How To Create Horizontal Scrolling Containers START
+@author: Colin Lord
+@link: https://codeburst.io/how-to-create-horizontal-scrolling-containers-d8069651e9c6 */
+
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin: 0em 0em;
+  }
+
+.avatar {
+    display: inline-block;
+    background-color: white;
+    border: 3px solid black;
+    margin: 2em 4em;
+    width: 15em;
+    height: 14em;
+    border-radius: 50%;
+}
+
+.avatar:hover {
+    border: 3px solid yellow;
+}
+
+.avatar img {
+    width: 75%;
+    margin-top: 1em;
+}
+
+.avatar-name {
+    font-size: 1.5em;
+}
+
+.card {
+    display: inline-block;
+    width: 100%;
+}
+
+.scrolling-wrapper::-webkit-scrollbar {
+      display: none;
+}
+
+.scrolling-wrapper {
+    -webkit-overflow-scrolling: touch;
+    }
+
+/* codeburst.io: How To Create Horizontal Scrolling Containers END
+@author: Colin Lord
+@link: https://codeburst.io/how-to-create-horizontal-scrolling-containers-d8069651e9c6 */
+
+.back {
+    text-align: left;
+}
+
+.fa-chevron-left:hover {
+    filter: brightness(200%);
+}
+
+.back .fa-chevron-left {
+    margin: 0.8em 0.8em;
+    font-size: 2em;
+    display: inline-block;
+}

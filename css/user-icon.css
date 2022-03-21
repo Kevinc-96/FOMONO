@@ -1,0 +1,26 @@
+.user-icon {
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    border: 2px solid black;
+    width: 3em;
+    height: 3em;
+    padding: 0.5rem;
+    top: 3%;
+    left: 6%;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.user-icon img {
+    width: 100%;
+}
+
+.user-icon div {
+    margin-top: 0.6em;
+    font-weight: bold;
+}
+
+.user-icon:hover {
+    border: 2px solid yellow;
+}

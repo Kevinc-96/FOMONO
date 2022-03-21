@@ -1,0 +1,28 @@
+* {
+    font-family: roboto;
+}
+
+#index-logo {
+    width: 100%;
+    text-align: center;
+    margin-top: 8vh;
+}
+
+#index-logo img {
+    width: 13em;
+}
+
+body {
+    background-color:#b5faff;
+}
+
+#firebaseui-auth-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.container h1 {
+    margin-bottom: 0.2em;
+    margin-top: 0.8em;
+}

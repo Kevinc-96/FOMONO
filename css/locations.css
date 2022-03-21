@@ -1,0 +1,207 @@
+
+#tabs {
+    padding: 1em 0em;
+}
+
+.tab-button {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    font-size: 1.3em;
+    padding: 0.6em 0.2em;
+    width: 28%;
+    margin: 0em 0.2em;
+    background-color: white;
+  }
+  
+  .tab-button:hover {
+      background-color: rgb(172, 217, 255);
+}
+
+  .list-title {
+      text-align: left;
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-bottom: 0.5em;
+      margin: 0.4em 0.7em;
+  }
+
+  .list-description {
+    text-align: left;
+    margin: 1em 1.1em;
+}
+
+  .location-list {
+    margin: 0 auto;
+    color: black;
+    display: none;
+    height: 70vh;
+  }
+
+  .underline {
+      border-bottom: 3px solid rgb(0, 0, 0);
+  }
+
+  .location-icon {
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 0.3em 0.3em;
+    width: 3.6em;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .location {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 100%;
+    background-color:rgb(125, 229, 255);
+    height: 4.2em;
+    padding: 0.5em;
+    border-bottom: 1px solid black;
+}
+
+.location-icon img {
+    width: 3.2em;
+}
+
+.location-info {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
+}
+
+.text-content {
+  grid-column: 1 / 4;
+  padding: 0.3em;
+  float: left;
+}
+
+div .fa-times-circle {
+  margin-right: -2.6em;
+  color: red;
+}
+
+.fa-times-circle:hover {
+  color: black;
+}
+
+.info-text {
+  float: left;
+  clear: both;
+  margin: 0.1em 0em;
+}
+
+.like {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+.favorites {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.visitors {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+.uniquevisitors {
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+}
+
+.uniquevisitors .fa-fingerprint {
+  color: green;
+  font-size: 1.14em;
+  background-color: rgb(235, 235, 235);
+  border: none;
+  padding: 0.3em 0.3em; 
+  border-radius: 50%;
+}
+
+
+.favorites .fa-heart{
+  font-size: 1.2em;
+  color: rgb(255, 0, 0);
+  background-color: rgb(235, 235, 235);
+  border: none;
+  text-align: center;
+  padding: 0.25em 0.3em; 
+  border-radius: 50%;
+}
+
+.visitors .fa-street-view {
+  color: black;
+  font-size: 1.14em;
+  background-color: rgb(235, 235, 235);
+  border: none;
+  padding: 0.3em 0.4em; 
+  border-radius: 50%;
+}
+
+.like .fa {
+  margin-top: 0.1em;
+  font-size: 1.4em;
+  text-decoration: none;
+  color: rgb(0, 132, 255);
+}
+
+.like-button {
+  border: none;
+  padding: 0.3em 0.4em; 
+  cursor: pointer; 
+  border-radius: 50%;
+}
+
+.visitors {
+  text-align: center;
+}
+
+.location-info span {
+  margin-left: 0.3em;
+  margin-bottom: 1em;
+}
+
+.empty-location-msg {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 45%;
+  font-size: 1.2em;
+}
+
+.rank {
+  grid-column: 4 / 5;
+  grid-row: 1 / 2;
+  width: 1.8em;
+  padding-left: 2.6em;
+}
+
+.rank-inner {
+  background-color: white;
+}
+
+.rank img {
+  width: 100%;
+  float: right;
+  margin-top: -0.2em;
+}
+
+.rank-number {
+  position: absolute;
+  margin-top: 0.63em;
+  margin-left: 0.74em;
+  font-weight: 700;
+  font-size: 14px;
+  color: black;
+  /* found this trick on stack overflow START
+  @link https://stackoverflow.com/questions/4919076/outline-effect-to-text */
+  text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+  /* found this trick on stack overflow START
+  @link https://stackoverflow.com/questions/4919076/outline-effect-to-text */
+}
+

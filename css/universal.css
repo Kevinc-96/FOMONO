@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: roboto;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#nav-bar {
+    background-color: rgb(167, 255, 189);
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 0;
+    width: 100%;
+    height: 6vh;
+    position: fixed;
+    bottom: 0.1vh;
+    border-top: 1px solid black;
+}
+
+#nav-bar div {
+    height: 100%;
+    text-align: center;
+}
+
+#nav-bar .fa {
+    font-size: 1.8em;
+    width: 100%;
+    height: 100%;
+    padding-top: 1vh;
+    text-decoration: none;
+    color: black;
+}
+
+#nav-bar .fa:hover {
+    background-color: rgb(209, 255, 220);
+}
+

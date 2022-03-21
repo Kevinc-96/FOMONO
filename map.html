@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fomono</title>
+    <link rel="shortcut icon" type="image/png" href="/images/fomono-logo.png" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/map.css">
+    <link rel="stylesheet" href="/css/universal.css">
+    <link rel="stylesheet" href="/css/user-icon.css">
+</head>
+
+<body>
+    <div id="icon-here" class="user-icon">
+        <div id="name"></div>
+    </div>
+
+    <div class="info-box">
+        <!-- <p id="status"></p> -->
+    </div>
+
+    <div id="map-goes-here"></div>
+
+    <div id="locate">
+        <div id="locate-me">
+            <img src="images/compass.png" alt="cursor">
+        </div>
+    </div>
+
+    <div id="heatmap">
+        <div id="toggle-heatmap">
+            <img src="images/fire.png" alt="heat">
+        </div>
+    </div>
+
+    <div id="refresh">
+        <div id="toggle-refresh">
+            <img src="images/reload.png" alt="refresh">
+        </div>
+    </div>
+
+
+    <div id="nav-bar">
+        <div><a href="map.html" class="fa fa-map-marked-alt"></a></div>
+        <div><a href="locations.html" class="fa fa-list-ul"></a></div>
+        <div><a href="friends.html" class="fa fa-users"></a></div>
+        <div><a href="profile.html" class="fa fa-user"></a></div>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+
+    <!-- Firebase Products -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js"></script>
+
+    <!-- Firebase UI Authorization -->
+    <script src="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.js"></script>
+
+    <!-- Google Products -->
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBFR1YaOmPg7_UZfgOLQhv3ayQ7d5Cjgmg&libraries=visualization&v=weekly"></script>
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- FOMONO Scripts -->
+    <script src="js/firebase_api_fomono.js"></script>
+    <script src="/js/identify_user.js"></script>
+    <script src="/js/map.js"></script>
+    <script src="/js/map-get-user-location.js"></script>
+    <script src="/js/map-simple.js"></script>
+    <script src="/js/heatmaps.js"></script>
+
+</body>
+
+</html>
