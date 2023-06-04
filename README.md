@@ -5,8 +5,8 @@
 * [Contents](#contents)
 * [Technologies](#technologies)
 * [Setting up](#setting-up)
-* [Accessing FOMONO](#live-app)
-* 
+* [Accessing FOMONO](#accessing-fomono)
+
 ## General Info
 FOMONO is a web based, mobile application designed to help people find the current trending and hot locations in Vancouver.
 
@@ -78,7 +78,6 @@ Back icon: https://fontawesome.com/v5.15/icons/chevron-left?style=solid
 x: https://fontawesome.com/v5.15/icons/times-circle?style=solid
 History sign: https://fontawesome.com/v5.15/icons/history?style=solid
 Fingerprint sign: https://fontawesome.com/v5.15/icons/fingerprint?style=solid
-
 ```
 ## Technologies
 Technologies used for this project:
@@ -102,4 +101,3 @@ How to set up a development environment on Windows.
 ## Accessing FOMONO
 You can access the live application here: https://fomono-34da3.web.app/	
 If you don't have an account already, the application will ask you to sign up. Feel free to use any email, real or made up. Once that is complete, the application will then prompt you to customize your profile, and once that is complete you can start using FOMONO!
-```
