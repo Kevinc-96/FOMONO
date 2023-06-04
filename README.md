@@ -100,4 +100,6 @@ How to set up a development environment on Windows.
 
 ## Accessing FOMONO
 * You can access the live application here: https://fomono-34da3.web.app/	
-* If you don't have an account already, the application will ask you to sign up. Feel free to use any email, real or made up. Once that is complete, the application will then prompt you to customize your profile, and once that is complete you can start using FOMONO!
+* If you don't have an account already, the application will ask you to sign up. 
+* Feel free to use any email, real or made up. 
+* Once that is complete, the application will then prompt you to customize your profile, and once that is complete you can start using FOMONO!
